@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
         <div className="relative h-screen">
-            <img className="w-full h-full bject-cover" src={Globe_image} alt="Background Image of a globe" />
+            <img className="w-full h-full object-cover" src={Globe_image} alt="Background Image of a globe" />
 
             <div className="absolute inset-0 flex flex-col items-center justify-center md:-top-20 lg:-top-28 z-10">
                 <h1 className="font-mono gradient-text text-6xl md:text-7xl lg:text-9xl font-extrabold mb-16">Creator Verse</h1>
