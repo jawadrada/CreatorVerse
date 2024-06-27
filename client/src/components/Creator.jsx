@@ -3,9 +3,8 @@ import { Link } from "react-router-dom"
 import { MdEdit } from "react-icons/md";
 import { FaYoutube, FaTwitter, FaInstagram, FaInfoCircle } from "react-icons/fa";
 
-//Fix edit and info links
 
-function Creator({ image, name, description, yt_url, insta_url, twitter_url }) {
+function Creator({ id, image, name, description, yt_url, insta_url, twitter_url }) {
   return (
     <>
       <div className="relative max-w-xl max-h-80 overflow-hidden rounded shadow-lg border-2 border-white">
@@ -17,14 +16,14 @@ function Creator({ image, name, description, yt_url, insta_url, twitter_url }) {
 
         <div className={"absolute inset-0 flex flex-col items-start justify-end text-white p-6 bg-black bg-opacity-50"}>
           <div className="flex flex-row justify-between items-center w-full">
-            <h1 className="text-indigo-500 text-3xl font-bold">{name}</h1>
+            <h1 className="text-3xl font-bold">{name}</h1>
 
             <div className="flex space-x-4">
-              <Link to="/creator:id">
+              <Link to={`/creator/${id}`}>
                 <FaInfoCircle size={24} />
               </Link>
 
-              <Link to="/edit:id">
+              <Link to={`/edit/${id}`}>
                 <MdEdit size={24} />
               </Link>
             </div>
@@ -57,4 +56,4 @@ function Creator({ image, name, description, yt_url, insta_url, twitter_url }) {
   );
 }
 
-export default Creator;
+export default Creator
