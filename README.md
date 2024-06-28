@@ -15,10 +15,10 @@ The following **required** functionality is completed:
 - [x] **At least five content creators are displayed on the homepage of the app**
 - [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
 - [x] **API calls use the async/await design pattern via Axios or fetch()**
-- [ ] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
 - [x] **Each content creator has their own unique URL**
 - [ ] **The user can edit a content creator to change their name, url, or description**
-- [ ] **The user can delete a content creator**
+- [x] **The user can delete a content creator**
 - [ ] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
 
 The following **optional** features are implemented:
@@ -30,9 +30,10 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [ ] List anything else that you added to improve the site's functionality!
-- Implemented responsive design for tablet and larger screen sizes.
+- Implemented responsive design for some of the pages for tablet and larger screen sizes.
 - Added additional styles to elements throughout the site.
 - I did not use PicoCSS, but I did use Tailwind CSS to further enhance styles.
+- Tried to replicate the original site as closely as possible.
 
 ## Video Walkthrough
 
@@ -50,6 +51,7 @@ GIF created with ...  👉🏿 GIF tool here
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
+
 
 ## License
 
