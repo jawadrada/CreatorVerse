@@ -40,9 +40,11 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Kapture 2024-06-28 at 00 13 46](https://github.com/jawadrada/CreatorVerse/assets/103535961/213f780b-ac40-4550-b143-6d1b1c31d970)
+
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
+GIF created with ...  👉🏿 Kap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
