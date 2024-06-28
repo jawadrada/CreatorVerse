@@ -50,7 +50,6 @@ function ShowCreators() {
 
         if (error) {
           console.log("Error fetching data: ", error)
-          console.log(data)
         }
 
         else {
