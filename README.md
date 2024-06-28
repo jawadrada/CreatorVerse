@@ -4,7 +4,7 @@ Submitted by: **👉🏿 Jawad Rada**
 
 About this web app: **👉🏿 Creatorverse is a web app that allows users to manage their favorite content creators by providing CRUD (create, read, update, delete) functionalities. Users can add creators such as YouTubers, Twitch streamers, and Instagram personalities, including their name, URL, description, and an optional image. The app is designed to display a  list of creators, enabling users to easily organize and share their preferred content creators.**
 
-Time spent: **👉🏿 X** hours
+Time spent: **👉🏿 24** hours
 
 ## Required Features
 
@@ -17,9 +17,9 @@ The following **required** functionality is completed:
 - [x] **API calls use the async/await design pattern via Axios or fetch()**
 - [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
 - [x] **Each content creator has their own unique URL**
-- [ ] **The user can edit a content creator to change their name, url, or description**
+- [x] **The user can edit a content creator to change their name, url, or description**
 - [x] **The user can delete a content creator**
-- [ ] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
+- [x] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
 
 The following **optional** features are implemented:
 
@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [x] List anything else that you added to improve the site's functionality!
 - Implemented responsive design for some of the pages for tablet and larger screen sizes.
 - Added additional styles to elements throughout the site.
 - I did not use PicoCSS, but I did use Tailwind CSS to further enhance styles.
@@ -52,6 +52,7 @@ GIF created with ...  👉🏿 GIF tool here
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
+Some challenges I encountered were realizing that I was less comfortable with React Router than I initially thought. I ended up learning about two new hooks, useNavigate and useParams, which I had not used before. Additionally, I challenged myself to get the styling to match as closely as possible to the original website, which was difficult. Figuring out how to embed all the child routes within the homepage also took some time to understand and implement.
 
 ## License
 
